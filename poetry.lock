@@ -41,7 +41,6 @@ mypy-extensions = ">=0.4.3"
 packaging = ">=22.0"
 pathspec = ">=0.9.0"
 platformdirs = ">=2"
-tomli = {version = ">=1.1.0", markers = "python_version < \"3.11\""}
 
 [package.extras]
 colorama = ["colorama (>=0.4.3)"]
@@ -208,18 +207,6 @@ files = [
 ]
 
 [[package]]
-name = "tomli"
-version = "2.0.1"
-description = "A lil' TOML parser"
-category = "dev"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"},
-    {file = "tomli-2.0.1.tar.gz", hash = "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"},
-]
-
-[[package]]
 name = "typer"
 version = "0.7.0"
 description = "Typer, build great CLIs. Easy to code. Based on Python type hints."
@@ -245,5 +232,5 @@ test = ["black (>=22.3.0,<23.0.0)", "coverage (>=6.2,<7.0)", "isort (>=5.0.6,<6.
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.10"
-content-hash = "c563ce1c129256bf1df2a90f7f84152afdaa1f29557c91ea72b674cf12b23e06"
+python-versions = "^3.11"
+content-hash = "521d911020e511baca35aa1bb5c4e262d7e0d371e867a8d3d8779758852b4269"
