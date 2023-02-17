@@ -6,7 +6,7 @@ pkgs.mkShell {
         pkgs.poetry
     ];
     shellHook = ''
-      poetry env use $PYTHONPATH/../../../bin/python &&
+      poetry env use $(which python) &&
       poetry install &&
       poetry update &&
       poetry shell
